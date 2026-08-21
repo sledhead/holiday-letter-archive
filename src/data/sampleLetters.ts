@@ -405,7 +405,45 @@ export const INITIAL_LETTERS: ChristmasLetter[] = [
     tags: ['New Home', 'Milestones', 'Traditions'],
     favorite: false,
     themeColor: 'forest'
+  },
+  {
+    id: 'letter-2017',
+    year: 2017,
+    title: 'The Little Teasures',
+    subtitle: 'Finding little teasures locked away in the city',
+    dateSent: 'December 24, 2017',
+    senders: 'David, Sarah, Liam & Maya',
+    location: 'New York, New York',
+    coverImage: 'https://images.unsplash.com/photo-1513297887119-d46091b24bfa?auto=format&fit=crop&w=1200&q=80',
+    stampText: 'NEW CHAPTER • VT 2017',
+    salutation: 'Dearest Friends and Family,',
+    paragraphs: [
+      'We are writing to you by the crackle of a wood stove in our new old farmhouse in Vermont! If someone had told us last Christmas that we would pack up our city lives and buy an 1880s colonial with three acres of apple trees, we might have laughed—and yet here we are, knee-deep in snow and loving every minute.',
+      'Liam (now 7) has embraced country life by building snow tunnels and learning how to tap maple trees with our wonderful neighbor Silas. Maya (age 3) is a whirlwind of curiosity who insists on wearing her yellow rain boots whether it is sunny, rainy, or -10 degrees outside.',
+      'David has set up his woodworking studio in the old red barn, and Sarah is designing wildflower gardens for next spring.',
+      'Thank you for traveling this journey of life with us. May your home be filled with laughter and your heart with peace.'
+    ],
+    milestones: [
+      { icon: 'Home', label: 'Farmhouse Move', text: 'Relocated from the city to 3 acres in Evergreen Pines' },
+      { icon: 'Sparkles', label: 'Woodshop Born', text: 'Converted the 1890 red barn into David’s studio' },
+      { icon: 'Trees', label: 'Maple Tapping', text: 'Tapped our first 6 backyard sugar maples with Liam' }
+    ],
+    enclosedPhotos: [
+      {
+        id: 'photo-2017-1',
+        url: 'https://images.unsplash.com/photo-1482517967863-00e15c9b44be?auto=format&fit=crop&w=800&q=80',
+        caption: 'Our first Christmas morning in the farmhouse with the red barn behind us',
+        location: 'Evergreen Pines Farm',
+        year: 2017
+      }
+    ],
+    signOff: 'Wishing you all our love across the miles,',
+    signatures: ['David', 'Sarah', 'Liam', 'Maya'],
+    tags: ['New Home', 'Milestones', 'Traditions'],
+    favorite: false,
+    themeColor: 'forest'
   }
+
 ];
 
 export const ALL_TAGS = [
