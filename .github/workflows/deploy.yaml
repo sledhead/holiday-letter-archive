@@ -1,5 +1,7 @@
 name: Deploy React App to GitHub Pages
 
+#Simple comment
+
 # Trigger on pushes to main or manually
 on:
   push:
