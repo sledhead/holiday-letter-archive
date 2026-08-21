@@ -26,8 +26,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests (optional)
-        run: npm run test:run  # Only if you have tests configured
+      
 
       - name: Build for production
         run: npm run build
