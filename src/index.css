@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-serif-heading {
+  font-family: 'Cinzel', serif;
+}
+
+.font-body-reading {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Festive parchment texture and vintage card effects */
+.bg-parchment {
+  background-color: #faf6ee;
+  background-image: radial-gradient(#e7dac5 1px, transparent 1px), radial-gradient(#efe7d7 1px, #faf6ee 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+/* Natural Tones styling helpers */
+.bg-natural-canvas {
+  background-color: #fdfaf6;
+}
+
+.bg-natural-card {
+  background-color: #ffffff;
+}
+
+.bg-natural-surface {
+  background-color: #f9f6f1;
+}
+
+.border-natural {
+  border-color: #e8dfd1;
+}
+
+/* Custom smooth scrollbar for Natural Tones */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1ebe3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1c7b7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e3a1e;
+}
+
+
+/* Subtle gold foil border and text accents */
+.gold-foil-border {
+  border-image: linear-gradient(135deg, #dfb76c 0%, #fff2bf 40%, #c9933b 70%, #f7dc89 100%) 1;
+}
+
+/* Vintage postal stamp edge simulation */
+.stamp-border {
+  background: 
+    radial-gradient(circle, transparent 6px, #faf6ee 7px) -6px -6px / 18px 18px repeat-x,
+    radial-gradient(circle, transparent 6px, #faf6ee 7px) -6px calc(100% + 6px) / 18px 18px repeat-x,
+    radial-gradient(circle, transparent 6px, #faf6ee 7px) -6px -6px / 18px 18px repeat-y,
+    radial-gradient(circle, transparent 6px, #faf6ee 7px) calc(100% + 6px) -6px / 18px 18px repeat-y;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: #1a1a1a !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .letter-page {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    page-break-after: always;
+  }
+}
+

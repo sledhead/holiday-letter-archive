@@ -1,0 +1,6 @@
+{
+  "name": "Holiday Letter Archive",
+  "description": "A festive, interactive personal archive for browsing, searching, and celebrating past years of family Christmas letters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
