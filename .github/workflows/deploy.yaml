@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read      # allow reading the repo
+  contents: write     # allow reading the repo
   pages: write        # allow writing to Pages branch
 
 jobs:
